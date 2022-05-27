@@ -79,7 +79,7 @@ body{
 .logo {
     display: flex;
     margin-right: auto;
-    opacity: 0.5;
+    opacity: 0.8;
     transition: all 0.5s ease;
 }
 .logo:hover{
