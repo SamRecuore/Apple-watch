@@ -209,10 +209,14 @@ body{
     padding: 12px 0px;
     background-color: var(--brand-color);
     display: inline-block;
+    box-shadow: 0px 0px 20px red;
+    border-radius: 10px;
 }
 .red-btn:hover{
-    background-color: #000;
+    background-color: rgb(39, 39, 39);
     color: #fff;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
 }
 .hero-section-btn {
     padding: 12px 38.5px;
@@ -334,5 +338,6 @@ body{
 .runners-btn:hover{
     background-color: var(--white-color);
     color: #000;
+    box-shadow: 0px 0px 20px white;
 }
 /* MAIN STYLES END */
