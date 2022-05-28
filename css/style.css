@@ -283,12 +283,56 @@ body{
 .features-section-link:hover.features-section-link::before{
     width: 60px;
 }
+/* WATCH HAND SECTION */
 
+.watch-hand-section-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.watch-hand-text-wrapper{
+    padding-top: 120px;
+}
+.watch-hand-btn{
+    width: 260px;
+    text-align: center;
+}
+
+/* RUNNERS SECTION STYLES */
+.runners-section{
+    display: flex;
+    background: url("../img/jpg/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: auto;
+    padding: 240px 635px 240px 125px;
+}
+.runners-container{
+
+}    
+.runners-section-wrapper{
+    margin-top: 20px;
+    margin-left: 550px;
+
+
+}
+.runners-section-title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+}
+.runner-section-text{
+    color: #fff;
+    border-left: 3px solid rgb(255, 255, 255);
+}
+.runners-btn{
+
+}
+.runners-btn:hover{
+    background-color: var(--white-color);
+    color: #000;
+}
 /* MAIN STYLES END */
-
-
-
-
-/* FOOTER STYLES START */
-
-/* FOOTER STYLES END */
